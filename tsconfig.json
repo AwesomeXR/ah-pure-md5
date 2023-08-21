@@ -13,7 +13,8 @@
     "downlevelIteration": true,
     "strict": true,
     "lib": ["es2017"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "dist",
   },
   "exclude": ["dist"]
 }
