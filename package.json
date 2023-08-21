@@ -1,0 +1,21 @@
+{
+  "name": "ah-pure-md5",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "ci": "ah-workflow ci",
+    "build": "ah-workflow build",
+    "prepublishOnly": "npm run ci && npm run build"
+  },
+  "author": "concefly@foxmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ah-workflow": "workspace:*",
+    "typescript": "^5.0.3"
+  },
+  "sideEffects": false
+}
